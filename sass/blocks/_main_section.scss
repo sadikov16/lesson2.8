@@ -1,0 +1,41 @@
+.main__section{
+    width: 600px;
+    margin: 0 auto 0;
+    padding: 10px 0;
+    background-color: white;
+    &__box{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        hr{
+            height: 2px;
+            width: 220px;
+        }
+        &__text{
+            font-family: 'Pacifico';
+            font-size: 25px;
+        }
+    }
+    &__box2{
+        width: 500px;
+        &__text{
+            font-family: 'Vampiro One';
+        }
+        &__text2{
+            border-radius: 15px;
+            padding: 15px;
+            background-color: coral;
+            font-family: 'Vampiro One';
+        }
+        &:nth-child(3){
+            margin-left: 100px;
+        }
+        .main__section__box2__text3{
+            font-family: 'Vampiro One';
+            text-align: end;
+        }
+        &:nth-child(5){
+            margin-left: 100px;
+        }
+    }
+}

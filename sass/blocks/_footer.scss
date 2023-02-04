@@ -1,0 +1,28 @@
+.footer{
+    width: 600px;
+    margin: 0px auto 0;
+    padding: 20px  0;
+    background-color: white;
+    .footer__label{
+        width: 500px;
+        .footer__input{
+            margin-top: 20px;
+            border:none;
+            width: 550px;
+            font-family: 'Fredoka One'; 
+            font-size: 20px;
+        }
+    }
+    .footer__btn{
+        font-size: 15px;
+        font-family: 'Fredoka One';
+        background-color: white;
+        border: none;
+        color: blue;
+        &:hover{
+            padding: 3px;
+            color: rgb(2, 243, 54);
+            background-color: rgb(64, 14, 245);
+        }
+    }
+}
